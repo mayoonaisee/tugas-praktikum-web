@@ -1,0 +1,95 @@
+/* Oscarrohim Bimasenah_202432012 */
+
+body { 
+    background-color: #f0f2f5; 
+    font-family: 'Verdana', sans-serif; 
+    margin: 0; 
+    padding: 0; 
+}
+
+
+header {
+    background-color: #6a89cc; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #d1d8e0;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+}
+
+nav a.active { 
+    color: white; 
+    font-weight: bold; 
+    text-decoration: none;
+    border: 1px solid white; 
+    border-radius: 4px;
+}
+
+main { 
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.reg-form { 
+    background: white; 
+    padding: 25px; 
+    border-radius: 10px; 
+    width: 100%; 
+    max-width: 600px; 
+    border-top: 5px solid #476EAE; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+}
+
+fieldset { border: none; }
+
+legend { 
+    font-size: 1.5em; 
+    color: #476EAE; 
+    margin-bottom: 20px; 
+    font-weight: bold;
+}
+
+.form-group { margin-bottom: 15px; text-align: left; }
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"], 
+input[type="password"],
+select, 
+textarea { 
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+
+button { 
+    background: #476EAE; 
+    color: white; 
+    border: none; 
+    padding: 12px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    width: 100%; 
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #34495e; 
+}

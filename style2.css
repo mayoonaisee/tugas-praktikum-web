@@ -1,0 +1,10 @@
+/* Oscarrohim Bimasenah_202432012 */
+body { font-family: Arial, sans-serif; margin: 0; background-color: #f8f9fa; }
+header { background-color: #6a9fb5; color: white; padding: 30px; text-align: center; }
+nav a { color: white; margin: 0 10px; text-decoration: none; border: 1px solid white; padding: 5px 10px; border-radius: 3px; }
+nav a.active { background-color: white; color: #6a9fb5; }
+
+main { padding: 40px; }
+.styled-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+.styled-table th { background-color: #6a9fb5; color: white; border: 1px solid #ddd; padding: 10px; }
+.styled-table td { border: 1px solid #ddd; padding: 10px; background-color: white; }

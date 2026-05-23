@@ -1,0 +1,57 @@
+/* Oscarrohim Bimasenah_202432012 */
+body { 
+    font-family: 'Segoe UI', sans-serif; 
+    background: #f4f7f6; 
+    margin: 0; 
+}
+
+header { 
+    background: #34495e; 
+    color: white; 
+    padding: 2rem; 
+    text-align: center; 
+}
+
+nav { 
+    margin-top: 15px; 
+}
+
+nav a {
+    color: #bdc3c7;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin: 0 5px;
+}
+
+nav a.active { 
+    background: #3498db; 
+    color: white;
+    border-radius: 4px;
+}
+
+main { 
+    padding: 3rem; 
+    max-width: 900px; 
+    margin: auto; 
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.styled-table th { 
+    background-color: #3498db; 
+    color: white; 
+    text-align: left;
+    padding: 12px;
+}
+
+.styled-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) { background-color: #f9f9f9; }

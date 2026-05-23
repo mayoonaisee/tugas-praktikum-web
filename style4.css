@@ -1,0 +1,13 @@
+/* Oscarrohim Bimasenah_202432012 */
+body { 
+    background: radial-gradient(circle, #2c3e50 0%, #1a252f 100%); 
+    overflow: hidden;
+}
+
+.card { 
+    background-color: #3d4d5e !important; 
+}
+
+.nav-link:hover { 
+    color: #f1c40f !important; 
+}
